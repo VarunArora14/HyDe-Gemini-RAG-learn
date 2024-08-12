@@ -17,7 +17,7 @@ Here we don't use `HypotheticalDocumentEmbedder` and rather implement our own `g
 
 As per the beliow image, **we send user query to LLM to generate a response and then do similarity search on vector DB on that response to get k similar documents.** 
 
-This generating hypothetical documents is the HyDe where we make the search better by doing simialrity search from the LLM answer from it's own knowledge(in code referred to as `getWebResponseLLM`) and NOT from the user question.
+This generating hypothetical documents is the HyDe where we make the search better by doing similarity search from the LLM answer from it's own knowledge(in code referred to as `getWebResponseLLM`) and NOT from the user question.
 
 The vector database has data from my personal notes from kubernetes and the code is compatible with any vector database you create. 
 
@@ -27,7 +27,3 @@ Note - **Creating your vector database will be important to run this code.**
 Refer to the workflow of notebook as below - 
 
 ![1723460236443](image/Readme/1723460236443.png)
-
-Consider this repo as learning source of - 
-1. how to implement HyDe approach using Gemini
-2. How to validate LLM outputs using pydantic and instructor library and return production ready responses
