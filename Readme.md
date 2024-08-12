@@ -26,7 +26,7 @@ Note - **Creating your vector database will be important to run this code.**
 
 Refer to the workflow of notebook as below - 
 
-![1723458453215](image/Readme/1723458453215.png)
+![1723460236443](image/Readme/1723460236443.png)
 
 Consider this repo as learning source of - 
 1. how to implement HyDe approach using Gemini
